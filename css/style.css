@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #dedede;
+    line-height: 1.4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background: #8338ec;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0.5rem 3.5rem;
+    border-radius: 5px;
+    box-shadow: 0 10px 8px -2px rgba(172, 172, 172, 0.5);
+    margin-bottom: 3rem;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.container {
+    background: #fff;
+    width: 100%;
+    max-width: 400px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 3rem 2.5rem;
+    box-shadow: 0 10px 8px -2px rgba(172, 172, 172, 0.5);
+}
+
+/* card 1 */
+.card-1 {
+    text-align: center;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.heart-icon {
+    font-size: 3rem;
+    color: #e63946;
+}
+
+.card-1 h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-1 p {
+    padding: 0.9rem 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* card 2 */
+.card-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-2 h3 {
+    padding-top: 3.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.card-2 h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+
+.card-2 p {
+    font-size: 0.8rem;
+    padding: 1rem 0;
+}
+
+.champagne-icon {
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-right: 2rem;
+}
